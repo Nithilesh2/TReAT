@@ -130,6 +130,8 @@
 
 img{
     object-fit: contain;
+    width: 80%;
+    aspect-ratio: 4/4;
 }
 
 
@@ -154,6 +156,11 @@ img{
     .section2Textarea2{
         font-size: 3.5rem;
     }
+    img{
+        width: 100%;
+        object-fit: contain;
+        aspect-ratio: 4/4;
+    }    
 }
 
 @media only screen and (max-width: 600px){
@@ -187,9 +194,9 @@ img{
         font-size: 2rem;
     }
     img{
-        height: 100%;
         width: 100%;
         object-fit: contain;
+        aspect-ratio: 3/4;
     }
     
 }
